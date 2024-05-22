@@ -1,0 +1,25 @@
+.contenedorBotones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #545454;
+    border: black;
+    font-style: bold;
+    border-bottom: black 0.5rem;
+}
+
+.agua,
+.gel,
+.serum,
+.contorno,
+.crema,
+.protector,
+.exfoliante,
+.mascarillas {
+    border: 5px black;
+    background-color: gainsboro;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: x-large;
+    display: inline-block;
+}
